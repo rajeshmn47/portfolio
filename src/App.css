@@ -4,13 +4,13 @@
 }
 .skills{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 40vw;
+  flex-direction: column;
 }
 .skill{
   margin: 1vmax 1vmax;
   background-color:#f0f0f0;
-  color:#333;
+ 
   min-width: 7vw;
   height: 6vh;
   display: flex;
@@ -27,11 +27,18 @@
   z-index: 10000000000;
   background-color: white;
 }
+.navbar-left{
+  display: flex;
+  
+}
 .navbar-right{
   display: flex;
   justify-content: space-between;
   align-items: center;
 width:30vw
+}
+.firstline{
+  font-size: 3vmax;
 }
 .about{
   margin-top: 7vh;
@@ -44,18 +51,63 @@ width:30vw
   color: white;
   flex-direction: column;
 }
-.about p{
-  margin: 1vmax;
+.projectbtn{
+  border: none;
+  outline: none;
+  background-color:white;
+  color: black;
+  padding: 1vmax;
+  width: 10vw;
+  margin-top:1vmax;
 }
-.skillstitle{
+.aboutpara{
   margin-top: 2vmax;
+  margin-bottom: 2vmax;
+  text-transform: lowercase;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.skillstitle{
+  margin-top: 5vmax;
+margin-left: 1vmax;
 }
 .center{
   display: flex;
   justify-content: space-evenly;
-  height: 30vh;
+  height: 50vh;
   align-items: center;
+  background-color: #dfe0eb;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.leftskillstitle{
+  padding: 2vmax;
+  width: 50vw;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+.btncontact{
+  background-color: #0062b9;
+  color: white;
+  text-decoration: none;
+margin-top: 5vmax;
+padding: 0.5vmax;
+width:20vw;
+height: 20vmax;
+}
+.gettoknow{
+  margin-top: 2vmax;
+}
+.aboutme{
+  background-color: #dfe0eb;
+  display: flex;
+  justify-content: center;
+  padding-top: 2vmax;
 }
