@@ -29,7 +29,18 @@
 }
 .navbar-left{
   display: flex;
-  
+align-items: center;
+}
+.about{
+  position: fixed;
+  left:0;
+  top:50%;
+}
+.img{
+  border-radius: 50%;
+  width: 1.5vmax;
+  height: 1.5vmax;
+  margin-right: 5px;
 }
 .navbar-right{
   display: flex;

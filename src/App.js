@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './images/book.jpg'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 function App() {
   return (
     <>
     <div className='navbar'>
   <div className='navbar-left'>
-    <img src='./images/book.jpg' alt=''/>
+    <img src={logo} alt='' className='img'/>
   <p>RAJESH</p></div>
   <div className='navbar-right'>
 <li>HOME</li>
@@ -16,6 +21,15 @@ function App() {
 </div>
     </div>
     <div className='about'>
+      <div className='socilamedia'>
+      <ul><li> <a><GitHubIcon/></a></li>
+      <li> <a><TwitterIcon/></a></li>
+      <li> <a><LinkedInIcon/></a></li>
+      <li> <a><InstagramIcon/></a></li>
+      <li> <a><FacebookIcon/></a></li>
+     
+      </ul>
+      </div>
       <div className='firstline'><h1>HEY, MY NAME IS RAJESH</h1> </div>
       <div className='aboutpara'> 
     <p>
