@@ -7,15 +7,24 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import MenuIcon from '@material-ui/icons/Menu';
-import {useRef} from 'react'
+import {useRef,useState} from 'react'
 
 function App() {
 const refer=useRef()
+const [t,setT]=useState(true)
 const dropdown=()=>{
+  if (t){
   console.log('ok')
   console.log(refer)
   refer.current.classList.remove('dropdown')
   refer.current.classList.add('dropdownclick')
+  setT(!t)
+  }
+  else{
+    refer.current.classList.add('dropdown')
+    refer.current.classList.remove('dropdownclick')
+    setT(!t)
+  }
 }
   return (
     <>
@@ -66,7 +75,7 @@ const dropdown=()=>{
     <div className='aboutme'><h1>ABOUT ME</h1></div>
     <div className='center'>
       <div className='leftskillstitle'>
-      <p class="about__content-details-para">
+      <p className="about__content-details-para">
             Hey! It's
             <strong> Rajesh </strong>
             and I'm a <strong> Full stack Web Developer </strong> located in Bangalore
@@ -111,45 +120,45 @@ const dropdown=()=>{
     </div>
     </div>
     <section id="projects" class="projects sec-pad">
-  <div class="main-container">
+  <div className="main-container">
     <h2 class="heading heading-sec heading-sec__mb-bg">
-      <span class="heading-sec__main">Projects</span>
-      <span class="heading-sec__sub">
+      <span className="heading-sec__main">Projects</span>
+      <span className="heading-sec__sub">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
         tempora explicabo quae quod deserunt eius sapiente
       </span>
     </h2>
 
-    <div class="projects__content">
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
+    <div className="projects__content">
+      <div className="projects__row">
+        <div className="projects__row-img-cont">
           <img
             src={laptop}
             alt="Software Screenshot"
-            class="projects__row-img"
+            className="projects__row-img"
             loading="lazy"
             width='300'
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 1</h3>
-          <p class="projects__row-content-desc">
+        <div className="projects__row-content">
+          <h3 className="projects__row-content-title">Project 1</h3>
+          <p className="projects__row-content-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
             tempora, explicabo quae quod deserunt eius sapiente praesentium.
           </p>
           <a
             href="./project-1.html"
-            class="btn btn--med btn--theme dynamicBgClr"
+            className="btn btn--med btn--theme dynamicBgClr"
             target="_blank"
             >Case Study</a>
         </div>
       </div>
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
+      <div className="projects__row">
+        <div className="projects__row-img-cont">
           <img
             src={laptop}
             alt="Software Screenshot"
-            class="projects__row-img"
+            className="projects__row-img"
             loading="lazy"
             width='300'
           />
@@ -202,7 +211,7 @@ const dropdown=()=>{
   <input type='text' className='input body' placeholder='body'/>
   </div>
 </div>
-
+<footer className='footer'></footer>
     </>
     
   )
