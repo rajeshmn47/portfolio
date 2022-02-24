@@ -6,14 +6,31 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import MenuIcon from '@material-ui/icons/Menu';
+import {useRef} from 'react'
 
 function App() {
+const refer=useRef()
+const dropdown=()=>{
+  console.log('ok')
+  console.log(refer)
+  refer.current.classList.remove('dropdown')
+  refer.current.classList.add('dropdownclick')
+}
   return (
     <>
+   <div className='menu'>
+   <MenuIcon onClick={dropdown}/>
+   <div className='dropdown' ref={refer}>
+     <li>HOME</li>
+   <li>ABOUT</li>
+   <li>PROJECTS</li>
+   <li>CONTACT</li></div></div>
     <div className='navbar'>
   <div className='navbar-left'>
     <img src={logo} alt='' className='img'/>
   <p>RAJESH</p></div>
+  
   <div className='navbar-right'>
 <li>HOME</li>
 <li>ABOUT</li>
@@ -31,6 +48,7 @@ function App() {
      
       </ul>
       </div>
+      <div className='aboutone'>
       <div className='firstline'><h1>HEY, MY NAME IS RAJESH</h1> </div>
       <div className='aboutpara'> 
     <p>
@@ -38,10 +56,12 @@ function App() {
     <p>
     than ever or Experience the most quickest repair service ever
   </p>
-       </div>
-       <div>
+  </div>
+  <div>
          <button className='projectbtn'>PROJECTS</button>
        </div>
+       </div>
+      
     </div>
     <div className='aboutme'><h1>ABOUT ME</h1></div>
     <div className='center'>
@@ -76,7 +96,7 @@ function App() {
 <div className='skill'>CSS</div>
 <div className='skill'>JAVASCRIPT</div>
 </div>
-<div className='row'>
+<div className='row second'>
 <div className='skill'>REACTJS</div>
 <div className='skill'>EXPRESSJS</div>
 <div className='skill'>NODEJS</div>
@@ -144,8 +164,7 @@ function App() {
             href="./project-2.html"
             class="btn btn--med btn--theme dynamicBgClr"
             target="_blank"
-            >Case Study</a
-          >
+            >Case Study</a>
         </div>
       </div>
       <div class="projects__row">

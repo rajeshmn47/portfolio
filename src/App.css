@@ -2,10 +2,19 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  width: 100vw;
+  height: 100vh;
+}
 a{
   text-decoration: none;
   color: white;
+}
+.aboutone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .skills{
   display: flex;
@@ -15,9 +24,8 @@ a{
 .skill{
   margin: 1vmax 1vmax;
   background-color:#f0f0f0;
- 
-  min-width: 7vw;
-  height: 6vh;
+  min-width: 7vmax;
+  height: 3vmax;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,6 +60,9 @@ width:30vw
 }
 .firstline{
   font-size: 3vmax;
+}
+.dropdown{
+  display: none;
 }
 .about{
   margin-top: 7vh;
@@ -107,6 +118,8 @@ margin-left: 1vmax;
 .row{
   display: flex;
   flex-direction: row;
+  
+  width: 100vw;
 }
 .leftskillstitle{
   padding: 2vmax;
@@ -161,7 +174,7 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 25vh;
+
   margin-left: 8vw;
 }
 .projects__row{
@@ -192,8 +205,8 @@ flex-direction: column;
 }
 .input{
   margin: 1vmax 1vmax;
-  width: 30vw;
-  height: 8vh;
+  width: 30vmax;
+  height: 4vmax;
   outline: none;
   border: none;
   background-color: #dfe0eb;
@@ -214,3 +227,119 @@ flex-direction: column;
 .body{
   height: 20vh;
 }
+.img-responsive{
+  height: auto;
+  max-width: 100%;
+  margin: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+.dropdownclick{
+  padding: 5px;
+  transform: translateX(0%);
+  position: absolute;
+  top:100%;
+  height: 30vh;
+  left:-0.5%;
+  width:100%;
+  background-color: white;
+  z-index: 100000000;
+  transition: all 0.5s;
+}
+.menu{
+  display: none;
+  position:relative;
+}
+@media screen and (max-width:800px) {
+  .navbar{
+    display: none;
+      }
+    .firstline{
+      font-size: 3vmax;
+      
+      text-align: center;
+    }
+    .projectbtn{
+      width:20vmax
+    }
+      .menu{
+       display:block;
+   padding-top: 2vmax;
+   padding-left: 5px;
+     height: 6vmax;
+     position: fixed;
+     top:0;
+     background-color: white;
+     width: 100vw;
+     z-index: 10000000000000000000000;
+     }
+     .projects__row{
+  
+       flex-direction:column ;
+     }
+     .second{
+  margin-right:15vw;
+ 
+     }
+     .center{
+       flex-direction: column;
+       height: 130vh;
+     }
+     .input{
+       height: 7vmax;
+       width: 50vw;
+     }
+     .contact_wall{
+       height: 70%;
+       width: 60vw;
+     }
+     
+     .projects__row-content{
+       align-items: center;
+       justify-content: center;
+     }
+     .aboutpara{
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     .skills{
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       justify-content: center;
+     }
+     .btn{
+       width: 15vmax;
+       height: 4vmax;
+     }
+     .aboutone{
+       display: flex;
+       align-items: center;
+      
+       flex-direction: column;
+       align-items: center;
+       margin: 0vw 10vw;
+     }
+     .skills{
+       width: 70vw;
+       margin: 0vw 40vw;
+     }
+     
+  .body{
+    height:15vmax;
+  }
+  .skillstitle{
+    margin-left: 45vw;
+  }
+  .leftskillstitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+  }
+ }
