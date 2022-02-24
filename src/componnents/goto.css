@@ -1,0 +1,68 @@
+
+
+.gonavbar{
+    display: flex;
+    width:100vw;
+    top:0;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    height:6vmax;
+    box-shadow: rgba(red, green, blue, alpha);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gonavbar-left{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+ width:50vw
+}
+.gonavbar-right{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+ width:6vw
+}
+.belownavbar{
+    margin-top: 10vmax;
+    height:80%;
+width:100%;
+display: flex;
+justify-content: center;
+box-sizing: border-box;
+align-items: center;
+padding: 0vmax 15vmax;
+}
+.filledbtn{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+padding: 15px;
+width: 12vw;
+margin-right: 10px;
+border-radius: 5px;
+}
+.monavbar{
+    display:none;
+}
+.openbtn{
+    outline: none;
+    border: none;
+    border:1px solid blue;
+    color: black;
+    background-color: white;
+padding: 15px;
+width: 12vw;
+margin: 10px 0px;
+border-radius: 5px;
+}
+@media screen and (max-width:900px) {
+    .gonavbar{
+        display: none;
+          }
+          .monavbar{
+              display:block;
+          }
+}

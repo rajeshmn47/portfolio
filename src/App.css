@@ -62,7 +62,10 @@ width:30vw
   font-size: 3vmax;
 }
 .dropdown{
-  display: none;
+  transform: translateX(-20%);
+  transform:translateY(-150%);
+  transition: 0.5s;
+  z-index: -7377377337;
 }
 .about{
   margin-top: 7vh;
@@ -252,6 +255,22 @@ flex-direction: column;
 .menu{
   display: none;
   position:relative;
+  z-index: 30000000000;
+}
+.footers{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height:30vh;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100vw;
+}
+.foot{
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
 }
 @media screen and (max-width:800px) {
   .navbar{
@@ -274,7 +293,7 @@ flex-direction: column;
      top:0;
      background-color: white;
      width: 100vw;
-     z-index: 10000000000000000000000;
+     z-index: 100000000000000003333333333333333000000;
      }
      .projects__row{
   
@@ -341,5 +360,10 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
 align-items: center;
+  }
+  .footers{
+    display: flex;
+    flex-direction: column;
+
   }
  }
