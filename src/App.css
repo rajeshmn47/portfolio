@@ -162,6 +162,8 @@ flex-direction: column;
   width: 60vw;
   margin-left: 5vmax;
 }
-.projects__row-content-desc{
-  
+.btn{
+  background-color: #0062b9;
+  color: white;
+  width: 20vw;
 }

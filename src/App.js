@@ -108,7 +108,7 @@ function App() {
             alt="Software Screenshot"
             class="projects__row-img"
             loading="lazy"
-            width='200'
+            width='300'
           />
         </div>
         <div class="projects__row-content">
@@ -121,8 +121,7 @@ function App() {
             href="./project-1.html"
             class="btn btn--med btn--theme dynamicBgClr"
             target="_blank"
-            >Case Study</a
-          >
+            >Case Study</a>
         </div>
       </div>
       <div class="projects__row">
@@ -132,7 +131,7 @@ function App() {
             alt="Software Screenshot"
             class="projects__row-img"
             loading="lazy"
-            width='200'
+            width='300'
           />
         </div>
         <div class="projects__row-content">
@@ -156,7 +155,7 @@ function App() {
             alt="Software Screenshot"
             class="projects__row-img"
             loading="lazy"
-            width='200'
+            width='300'
           />
         </div>
         <div class="projects__row-content">
@@ -169,8 +168,7 @@ function App() {
             href="./project-3.html"
             class="btn btn--med btn--theme dynamicBgClr"
             target="_blank"
-            >Case Study</a
-          >
+            >Case Study</a>
         </div>
       </div>
     </div>
