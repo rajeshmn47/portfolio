@@ -1,5 +1,6 @@
 import './App.css';
 import logo from './images/book.jpg'
+import laptop from './images/laptop.jpeg'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -23,7 +24,7 @@ function App() {
     <div className='about'>
     <div className='socialmedia'>
       <ul><li> <a href='https://www.github.com/rajeshmn47'><GitHubIcon/></a></li>
-      <li> <a><TwitterIcon/></a></li>
+      <li> <a href='https://www.twitter.com/rajeshmn47'><TwitterIcon/></a></li>
       <li> <a><LinkedInIcon/></a></li>
       <li> <a><InstagramIcon/></a></li>
       <li> <a><FacebookIcon/></a></li>
@@ -47,20 +48,20 @@ function App() {
       <div className='leftskillstitle'>
       <p class="about__content-details-para">
             Hey! It's
-            <strong>Rajesh</strong>
+            <strong> Rajesh </strong>
             and I'm a <strong> Full stack Web Developer </strong> located in Bangalore
             . I've done
             <strong> remote </strong>
             projects for agencies, consulted for startups, and collaborated with
             talented people to create
-            <strong>digital products </strong>
+            <strong> digital products </strong>
             for both business and consumer use.
           </p>
           <p class="about__content-details-para">
             I'm a bit of a digital product junky. Over the years, I've used
             hundreds of web and mobile apps in different industries and
             verticals. Feel free to
-            <strong>contact</strong> me here.
+            <strong> contact</strong> me here.
           </p>
           <div className='gettoknow'>
           <a href="./#contact" class="btncontact"
@@ -71,24 +72,111 @@ function App() {
     <div className='skillstitle'><h1>MY SKILLS</h1></div>
     <div className='skills'>
       <div className='row'>
+<div className='skill'>HTML</div>
+<div className='skill'>CSS</div>
 <div className='skill'>JAVASCRIPT</div>
-<div className='skill'>NODEJS</div>
+</div>
+<div className='row'>
 <div className='skill'>REACTJS</div>
-</div>
-<div className='row'>
-<div className='skill'>MONGODB</div>
 <div className='skill'>EXPRESSJS</div>
-<div className='skill'>JAVASCRIPT</div>
+<div className='skill'>NODEJS</div>
 <div className='skill'>MONGODB</div>
 </div>
 <div className='row'>
-<div className='skill'>EXPRESSJS</div>
-<div className='skill'>JAVASCRIPT</div>
+<div className='skill'>POSTGRESQL</div>
+<div className='skill'>MYSQL</div>
 </div>
 </div>
   
     </div>
     </div>
+    <section id="projects" class="projects sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-bg">
+      <span class="heading-sec__main">Projects</span>
+      <span class="heading-sec__sub">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+        tempora explicabo quae quod deserunt eius sapiente
+      </span>
+    </h2>
+
+    <div class="projects__content">
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src={laptop}
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+            width='200'
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Project 1</h3>
+          <p class="projects__row-content-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora, explicabo quae quod deserunt eius sapiente praesentium.
+          </p>
+          <a
+            href="./project-1.html"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Case Study</a
+          >
+        </div>
+      </div>
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src={laptop}
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+            width='200'
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Project 2</h3>
+          <p class="projects__row-content-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora, explicabo quae quod deserunt eius sapiente praesentium.
+          </p>
+          <a
+            href="./project-2.html"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Case Study</a
+          >
+        </div>
+      </div>
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src={laptop}
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+            width='200'
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Project 3</h3>
+          <p class="projects__row-content-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora, explicabo quae quod deserunt eius sapiente praesentium.
+          </p>
+          <a
+            href="./project-3.html"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Case Study</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     </>
     
   )

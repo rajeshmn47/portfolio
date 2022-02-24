@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 .skills{
   display: flex;
   width: 40vw;
@@ -127,4 +130,38 @@ height: 20vmax;
   display: flex;
   justify-content: center;
   padding-top: 2vmax;
+}
+.heading{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 1vmax;
+}
+.main-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.heading-sec__sub{
+  font-size:15px;
+  opacity: 0.7;
+  margin: 1vmax 2vmax;
+}
+.projects__content{
+  display: flex;
+flex-direction: column;
+}
+.projects__row{
+  display: flex;
+  justify-content:space-between;
+  margin: 1vmax 2vmax;
+  align-items: center;
+  width: 60vw;
+  margin-left: 5vmax;
+}
+.projects__row-content-desc{
+  
 }
