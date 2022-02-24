@@ -176,8 +176,7 @@ function App() {
 </section>
 <div className='contact'>
 <h1 className='contacttitle'>CONTACT</h1>
-  <div className='contact_wall'>
-  
+  <div className='contact_wall'> 
   <input type='text' className='input' placeholder='phone number'/>
   <input type='text' className='input' placeholder='email'/>
   <input type='text' className='input' placeholder='message topic'/>
