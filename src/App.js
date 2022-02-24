@@ -21,8 +21,8 @@ function App() {
 </div>
     </div>
     <div className='about'>
-      <div className='socilamedia'>
-      <ul><li> <a><GitHubIcon/></a></li>
+    <div className='socialmedia'>
+      <ul><li> <a href='https://www.github.com/rajeshmn47'><GitHubIcon/></a></li>
       <li> <a><TwitterIcon/></a></li>
       <li> <a><LinkedInIcon/></a></li>
       <li> <a><InstagramIcon/></a></li>

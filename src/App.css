@@ -31,11 +31,7 @@
   display: flex;
 align-items: center;
 }
-.about{
-  position: fixed;
-  left:0;
-  top:50%;
-}
+
 .img{
   border-radius: 50%;
   width: 1.5vmax;
@@ -59,8 +55,18 @@ width:30vw
   background-color: #0062b9;
   height: 90vh;
   width: 100vw;
+  position: relative;
   color: white;
   flex-direction: column;
+}
+.socialmedia{
+  position: absolute;
+  left: 0;
+  top: 30%;
+}
+.socialmedia li{
+  border: 1px solid white;
+  border-left: none;
 }
 .projectbtn{
   border: none;
