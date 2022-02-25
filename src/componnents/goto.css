@@ -79,17 +79,117 @@ border-radius: 5px;
     align-items: center;
     box-sizing: border-box;
 }
-
+.etho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .ethos{
-    height:100vh;
+    height: 120vh;
     width: 100vw;
     box-sizing: border-box;
-    background-color: #D6D6D6;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 .mission{
     background-color: white;
-    height: 60vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding:2vmax;
+    width: 20vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.missions{
+    display:flex ;
+    justify-content: space-evenly;
+    width:80vw;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.selling{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+.sell{
+    display: flex;
+    height: 35vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00C9B8;
+    color: white;
+    width: 20vw;
+    padding: 1vmax;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: white;
+border: none;
+outline: none;
+width: 10vw;
+color: black;
+}
+.repair{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 20vw;
+    background-color: #8B5EFF;
+    height: 35vh;
+    padding: 1vmax;
+    box-sizing: border-box;
+}
+.refurb{
+    display: flex;
+    height: 35vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 20vw;
+    background-color: #FFA062;
+    padding: 1vmax;
+    box-sizing: border-box;
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.fot{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    opacity: 0.8;
+}
+.lastdiv{
+    display: flex;
+    padding:0vmax 5vmax;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin-top: 2vmax;
+    border-top: 1x solid black;
 }
 @media screen and (max-width:900px) {
     .gonavbar{
