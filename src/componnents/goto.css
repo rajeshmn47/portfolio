@@ -185,11 +185,13 @@ footer{
 }
 .lastdiv{
     display: flex;
-    padding:0vmax 5vmax;
+    padding:1vmax 5vmax;
     justify-content: space-evenly;
     box-sizing: border-box;
     margin-top: 2vmax;
-    border-top: 1x solid black;
+    
+    border-top: 1px solid rgb(107, 104, 104);
+    border-bottom: 1px solid rgb(107, 104, 104);
 }
 @media screen and (max-width:900px) {
     .gonavbar{
