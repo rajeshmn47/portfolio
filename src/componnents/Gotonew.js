@@ -155,7 +155,7 @@ Nehru Nagar Main Road,
 Bengaluru Urban, Karnataka 560020
 +918041430926
 +918041430926
-support@2new.com
+support@2new.in
 </div>
 </footer>
 <div className='lastdiv'>
