@@ -214,7 +214,7 @@ export const Portfolio=()=>{
                 </a>
                 <a href="tel:+9660532851600" className="phone">
                   <h6 className="contact pt-2">{" "}
-                    <span>917259293140</span>
+                    <span>+917259293140</span>
                   </h6>
                 </a>
               </div>
