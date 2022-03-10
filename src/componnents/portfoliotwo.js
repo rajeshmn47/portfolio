@@ -282,7 +282,8 @@ export const Portfolio=()=>{
                     required
                   ></textarea>
                 </div>
-                <button className="btn btn-info btn-lg d-flex ml-auto mr-2">
+                <button className="btn btn-info btn-lg d-flex ml-auto mr-2 
+                justify-content-center align-items-center">
                   Send
                 </button>
              
