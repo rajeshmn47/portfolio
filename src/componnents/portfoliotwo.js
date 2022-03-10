@@ -144,7 +144,7 @@ export const Portfolio=()=>{
                 <h1 className="pb-3 all_title_section">LET ME INTRODUCE MYSELF</h1>
                 <p className="px-md-5 px-lg-0">
                   I'm a dedicated web developer and hard worker. I am from
-                  Bangladesh but I currently live in Saudi Arabia. Now, I am
+                  India and I currently live in Bangalore. Now, I am
                   looking for my first job.
                 </p>
                 <p className="pt-2 px-md-5 px-lg-0">
@@ -289,15 +289,15 @@ export const Portfolio=()=>{
               </form>
             </Col>
           </Row>
-      
-      
-      </Container>
-    </section>
-    <footer className="d-flex justify-content-center pt-5 footer">
+          <footer className="d-flex justify-content-center pt-5 footer">
         <p style={{ color: "#204896" }} className="pt-5">
           &copy; {new Date().getFullYear()} all rights reserved by Rajesh
         </p>
       </footer>
+      
+      </Container>
+    </section>
+  
         </>
     )
 }
