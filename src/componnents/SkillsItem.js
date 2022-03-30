@@ -7,17 +7,17 @@ export const SkillsItem=({skill})=>{
 <>
 
 
-<Row className="d-flex mt-7 justify-content-center align-items-center px-5 py-6" style={{boxSizing:'border-box'}}>
+<Row 
+className="d-flex mt-4 justify-content-center align-items-center px-5" >
         {skill.map((item, index) => (
           <Col
             key={index}
-            
-            md={3}
-            lg={3}
-            xl={2}
+            md={1}
+            lg={1}
+            xl={1}
             id="skillItem"
-            className="d-flex justify-content-center w-sm-50 mr-md-3 mt-2 py-2"
-            style={{boxSizing:'border-box'}}
+            className="d-flex justify-content-center w-sm-50 mr-md-4 mt-3 py-2"
+          
           >
             <div>
               <Fade bottom>

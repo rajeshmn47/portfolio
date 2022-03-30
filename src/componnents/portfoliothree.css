@@ -1,0 +1,15 @@
+.icon{
+    background-color: white;
+    height: 50px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    
+}
+.background{
+    width:100vw;
+    background-image: url("../images/home-banner.png");
+}

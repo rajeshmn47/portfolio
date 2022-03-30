@@ -1,51 +1,115 @@
-export const Portfoliothree=()=>{
-    class loss{
-    
-        constructor(A,B){
-this.a=A
-this.b=B
-        }
+import aboutus from '../images/about-us.png'
+import banner from '../images/banner-image.png'
+import logo from '../images/Logo.gif'
+import skillsData from "./skills.json";
+import { Navbar,Container, Nav,Row,Col } from 'react-bootstrap';
+import { RowingTwoTone } from '@material-ui/icons';
+import './portfoliothree.css'
+import EmailIcon from '@material-ui/icons/Email';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedIn from '@material-ui/icons/LinkedIn';
+import Particles from "react-tsparticles";
 
-    }
-    function largestnumber(a){
-        var f=a[0]
-        for(var i=0;i<a.length;i++){
-          if(a[i]>f)
-          {
-              f=a[i]
-          }  
-        }
-        console.log(f)
-    } 
-    largestnumber([1,5,7,2,5,2,3,8,33,44,555,22,44,6,222,666,333,11,0,6,4,333332,666,444])
+
+export const Portfoliothree=()=>{
+    const particlesInit = (main) => {
+        console.log(main);
+    
+        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+      };
+    
+      const particlesLoaded = (container) => {
+        console.log(container);
+      };
     return(
         <>
+  <Particles
+      id="tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
+      options={{
+        background: {
+          color: {
+            value: "#000",
+          },
+        },
+        fpsLimit: 120,
+        interactivity: {
+          events: {
+            onClick: {
+              enable: true,
+              mode: "push",
+            },
+            onHover: {
+              enable: true,
+              mode: "repulse",
+            },
+            resize: true,
+          },
+          modes: {
+            bubble: {
+              distance: 400,
+              duration: 2,
+              opacity: 0.8,
+              size: 40,
+            },
+            push: {
+              quantity: 4,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+          },
+        },
+        particles: {
+          color: {
+            value: "#ffffff",
+          },
+          links: {
+            color: "#ffffff",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
+          },
+          collisions: {
+            enable: true,
+          },
+          move: {
+            direction: "none",
+            enable: true,
+            outMode: "bounce",
+            random: false,
+            speed: 6,
+            straight: false,
+          },
+          number: {
+            density: {
+              enable: true,
+              area: 800,
+            },
+            value: 80,
+          },
+          opacity: {
+            value: 0.5,
+          },
+          shape: {
+            type: "circle",
+          },
+          size: {
+            random: true,
+            value: 5,
+          },
+        },
+        detectRetina: true,
+      }}
+    />
      
-<section class="skills">
-    <div class="skills-block">
-        <div class="section_title_about">
-            <h2 class="section_title ">
-               My Skills
-            </h2>
-            <div class="underline"></div>
-        </div>
-        <div class="skills-container">
-            <p class="row1">HTML5 <i class="fab fa-html5" aria-hidden="true"></i></p>
-            <p class="row2">CSS <i class="fab fa-css3" aria-hidden="true"></i></p>
-            <p class="row3">JavaScript <i class="fab fa-js-square"></i></p>
-            <p class="row4">Sass <i class="fab fa-sass"></i></p>
-            <p class="row5">jquery <i class="fas fa-code"></i></p>
-            <p class="row6">Bootstrap <i class="fab fa-bootstrap"></i></p>
-            <p class="row7">React <i class="fab fa-react"></i></p>
-            <p class="row8">Redux <i class="fas fa-sitemap"></i></p>
-            <p class="row9">Git <i class="fab fa-git-alt"></i></p>
-            <p class="row10">Github <i class="fab fa-github"></i></p>
-        </div>
-    </div>
-
-</section>
-
-
 </>
     )
 }

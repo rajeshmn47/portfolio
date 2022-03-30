@@ -58,14 +58,14 @@ export const Portfolio=()=>{
             <div className="pt-5">
             
                 <h3 className="pt-3 text_title all_title_section">Hey</h3>
-                <h1 className="text_title all_title_section">I AM RAJESH</h1>
+                <h1 className="text_title all_title_section">I AM RAESH</h1>
                 <h4 className="text_title pt-2">FULL-STACK WEB DEVELOPER</h4>
                 <h4 className="pt-2">
                   I work in{" "}
                   
                 </h4>
                 <div className="site-buttons pt-5">
-            <div className="d-flex flex-row flex-wrap align-itemsjjjdjjdjkdsi-md-center align-items-center ">
+            <div className="d-flex flex-row flex-wrap align-items-md-center align-items-center ">
                     <a
                       className="text-decoration-none text-white"
                       href="mailto:devabusayed69@gmail.com"
