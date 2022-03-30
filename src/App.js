@@ -8,7 +8,7 @@ import Portfoliothree from './componnents/portfoliothree'
 function App() {
 return(
   <>
-<Homepage/>
+<Portfolio/>
 
   </>
 )
