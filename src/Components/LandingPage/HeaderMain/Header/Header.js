@@ -20,15 +20,15 @@ const Header = () => {
             <div className="pt-5">
               <Fade left big>
                 <h3 className="pt-3 text_title all_title_section">Hey</h3>
-                <h1 className="text_title all_title_section">I AM ABU SAYED</h1>
+                <h1 className="text_title all_title_section">I AM Rajesh</h1>
                 <h4 className="text_title pt-2">FULL-STACK WEB DEVELOPER</h4>
                 <h4 className="pt-2">
                   I work in{" "}
                   <TypeAnimation
-                    className="show_skills"
+                 cursor={false}
                     loop={Infinity}
-                    wrapper="b"
-                    steps={[
+                  
+                    sequence={[
                       "JavaScript(ES6) ✔",
                       1000,
                       "React.js ✔",

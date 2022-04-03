@@ -39,7 +39,7 @@ const ContactUs = () => {
     <section id="contact" className="pt-5 px-md-5 px-2 from_content">
       <Container fluid className="py-5 px-lg-5">
         <Slide bottom>
-          <h2 className="text-dark text-center py-5 skills all_title_section">CONTACT US</h2>
+          <h2 className="text-dark mx-5 py-5 skills all_title_section">CONTACT US</h2>
         </Slide>
 
         <Slide bottom>
@@ -55,36 +55,36 @@ const ContactUs = () => {
               <div>
                 <h6 className="contact pt-4 pb-2">
               
-                  Dagonbuiyan,Fine,Bangladesh
+                  Bangalore,India
                 </h6>
                 <a href="mailto:devabusayed69@gmail.com" className="contact">
                   <h6>
                
-                    <span>devabusayed69@gmail.com</span>
+                    <span>rajeshmn47@gmail.com</span>
                   </h6>
                 </a>
                 <a href="tel:+9660532851600" className="phone">
                   <h6 className="contact pt-2">
                
-                    <span>+9660532851600</span>
+                    <span>7259293140</span>
                   </h6>
                 </a>
               </div>
 
               <div className="social_media d-flex pt-5 pb-3">
-                <a href="mailto:devabusayed69@gmail.com">
+                <a href="mailto:rajeshmn47@gmail.com">
                 
              
                 </a>
                 <a
-                  href="https://github.com/abu-sayed-1"
+                  href="https://github.com/rajeshmn47"
                   target="blank"
                   rel="noopener noreferrer"
                 >
                 <GitHubIcon/>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/dev-abu-sayed/"
+                  href="https://www.linkedin.com/in/rajeshmn47/"
                   target="blank"
                   rel="noopener noreferrer"
                 >
@@ -132,7 +132,7 @@ const ContactUs = () => {
                     required
                   ></textarea>
                 </div>
-                <button className="btn btn-info btn-lg d-flex ml-auto mr-2">
+                <button className="btn btn-info btn-lg d-flex ml-auto mr-2 btn-sm">
                   Send
                 </button>
               </form>
