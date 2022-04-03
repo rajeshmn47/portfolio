@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import mainImg from "../../../images/banner-image.png";
 import { Container, Row, Col } from "react-bootstrap";
-import Typical from "react-typical";
+import TypeAnimation from "react-type-animation";
 import { Fade,Slide } from "react-awesome-reveal";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -24,7 +24,7 @@ const Header = () => {
                 <h4 className="text_title pt-2">FULL-STACK WEB DEVELOPER</h4>
                 <h4 className="pt-2">
                   I work in{" "}
-                  <Typical
+                  <TypeAnimation
                     className="show_skills"
                     loop={Infinity}
                     wrapper="b"

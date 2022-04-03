@@ -2,9 +2,8 @@ import React from "react";
 import "./AboutMe.css";
 import aboutUs from "../../images/about-us.png";
 import { Container, Row, Col } from "react-bootstrap";
-import Slide from "react-reveal/Reveal";
-
-
+import {Slide} from 'react-awesome-reveal'
+import TypeAnimation from 'react-type-animation';
 import myResume from "./resume/abu-sayed-Resume.pdf";
 import DownloadIcon from '@material-ui/icons/GitHub';
 
