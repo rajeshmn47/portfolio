@@ -44,7 +44,7 @@ const AboutMe = () => {
                 >
                   <button className="button hire_btn mt-3 text-uppercase py-3">
                 <DownloadIcon/>
-                    GET Resume
+                    GET Resumes
                   </button>
                 </a>
               </div>
