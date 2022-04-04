@@ -3,8 +3,8 @@
 [
     {
         "project": "fullStack",
-        "title": "Cricbuzzclone",
-        "img": "../../images/cricbuzz.jpeg",
+        "title": "cricbuzz-clone",
+        "img": "https://i.ibb.co/801wKCQ/Web-1920-3.png",
         "summary": "cloning cricbuzz with material ui,css,react and consuming apis",
         "technology": [
             {
