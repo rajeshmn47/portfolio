@@ -1,4 +1,38 @@
+
+
 [
+    {
+        "project": "fullStack",
+        "title": "Cricbuzzclone",
+        "img": "../../images/cricbuzz.jpeg",
+        "summary": "cloning cricbuzz with material ui,css,react and consuming apis",
+        "technology": [
+            {
+                "tech": "REACT.JS"
+            },
+            {
+                "tech": "BOOTSTRAP"
+            },
+            {
+                "tech": "MATERIAL-UI"
+            },
+            {
+                "tech": " NODE.JS"
+            },
+            {
+                "tech": "EXPRESS.JS"
+            },
+            {
+                "tech": "MONGODB"
+            },
+            {
+                "tech": "STRIPE.JS"
+            }
+        ],
+        "sourceCodeClient": "https://github.com/rajeshmn47/Aircnc-client",
+        "sourceCodeBackend": "https://github.com/rajeshmn47/Aircnc-server",
+        "siteUrl": "https://aircnc-application.herokuapp.com/"
+    },
     {
         "project": "fullStack",
         "title": "Aircnc",

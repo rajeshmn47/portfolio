@@ -39,7 +39,7 @@ const ContactUs = () => {
     <section id="contact" className="pt-5 px-md-5 px-2 from_content">
       <Container fluid className="py-5 px-lg-5">
         <Slide bottom>
-          <h2 className="text-dark mx-5 py-5 skills all_title_section">CONTACT US</h2>
+          <h2 className="text-dark ml-5 py-5 skills all_title_section">CONTACT US</h2>
         </Slide>
 
         <Slide bottom>
