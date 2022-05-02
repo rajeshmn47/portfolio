@@ -3,9 +3,9 @@
 [
     {
         "project": "fullStack",
-        "title": "cricbuzz-clone",
-        "img": "https://i.ibb.co/801wKCQ/Web-1920-3.png",
-        "summary": "cloning cricbuzz with material ui,css,react and consuming apis",
+        "title": "Dunzo.com Clone",
+        "img": "",
+        "summary": "cloning DUNZO.COM with material ui,css,react and razorpay payment gateways",
         "technology": [
             {
                 "tech": "REACT.JS"
@@ -26,12 +26,12 @@
                 "tech": "MONGODB"
             },
             {
-                "tech": "STRIPE.JS"
+                "tech": "RAZORPAY"
             }
         ],
         "sourceCodeClient": "https://github.com/rajeshmn47/Aircnc-client",
         "sourceCodeBackend": "https://github.com/rajeshmn47/Aircnc-server",
-        "siteUrl": "https://aircnc-application.herokuapp.com/"
+        "siteUrl": "https://dunzoclonebyrajesh.netlify.app"
     },
     {
         "project": "fullStack",

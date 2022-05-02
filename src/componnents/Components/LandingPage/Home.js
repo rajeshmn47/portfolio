@@ -15,7 +15,7 @@ const Home = () => {
       <AboutMe />
       <WorkFeatured projectData={projects} />
       <Skills />
-      <ContactUs />
+      
     </div>
   );
 };

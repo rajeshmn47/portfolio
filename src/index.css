@@ -7,8 +7,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  
+  width:100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 code {

@@ -36,22 +36,18 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="contact" className="pt-5 px-md-5 px-2 from_content">
-      <Container fluid className="py-5 px-lg-5">
-        <Slide bottom>
-          <h2 className="text-dark ml-5 py-5 skills all_title_section">CONTACT US</h2>
-        </Slide>
-
-        <Slide bottom>
-          <Row className="pt-md-5 pt-3">
-            <Col sm={12} md={12} lg={6} xl={6} className="px-lg-4">
+    <section >
+   
+      
+      <h2 className="text-dark ml-5 py-5 skills all_title_section">CONTACT US</h2>
+    <Row>
+            <Col sm={12} md={12} lg={6} xl={6} >
               <p>
                 You can contact me if you want to know more about me. and You
                 can also give me your opinion about my page. My inbox is always
                 open for you. I will try my best to reply to all of your
                 messages.
               </p>
-
               <div>
                 <h6 className="contact pt-4 pb-2">
               
@@ -138,9 +134,9 @@ const ContactUs = () => {
               </form>
             </Col>
           </Row>
-        </Slide>
-        <Footer />
-      </Container>
+        
+          <Footer />
+      
     </section>
   );
 };

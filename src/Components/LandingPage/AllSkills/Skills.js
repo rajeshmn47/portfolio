@@ -37,9 +37,9 @@ const Skills = () => {
   return (
     <div id="skills">
       <section className="px-lg-5 py-5 skills_container">
-        <Container fluid>
-          <Slide bottom>
-            <h1 className="text-center skills all_title_section">SKILLS</h1>
+      <Container fluid>
+      <Slide >
+            SKILLS
           </Slide>
           <ProjectsSkillsNavbar dispatch={dispatch} />
           {skillsData && (

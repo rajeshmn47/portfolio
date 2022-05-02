@@ -7,6 +7,7 @@ import Portfoliothree from './componnents/portfoliothree'
 import Home from "./Components/LandingPage/Home";
 import AllProjects from "./Components/AllProjects/AllProjects";
 import PageNotFound from "./Components/PageNotFound";
+import './App.css'
 
 function App() {
 return(

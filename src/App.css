@@ -3,3 +3,8 @@
         font-size: 27px !important;
     }
 }
+body{
+    width:100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
