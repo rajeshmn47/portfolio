@@ -15,7 +15,7 @@ return(
    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="home" element={<Home />} />
+        
         <Route path="all-projects" element={<AllProjects />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>

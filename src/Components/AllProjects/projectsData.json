@@ -4,7 +4,7 @@
     {
         "project": "fullStack",
         "title": "Dunzo.com Clone",
-        "img": "",
+        "img": "../../images/dunzocloneimage.jpeg",
         "summary": "cloning DUNZO.COM with material ui,css,react and razorpay payment gateways",
         "technology": [
             {

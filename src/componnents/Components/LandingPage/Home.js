@@ -11,7 +11,7 @@ const Home = () => {
   const projects = projectData.slice(0, 3);
   return (
     <div>
-      <HeaderMain />
+      
       <AboutMe />
       <WorkFeatured projectData={projects} />
       <Skills />

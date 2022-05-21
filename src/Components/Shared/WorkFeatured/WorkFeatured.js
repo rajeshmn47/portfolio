@@ -17,7 +17,7 @@ const WorkFeatured = ({ projectData }) => {
         <div className="container my-5">
           <Slide bottom>
             <h1 className="text-center all_title_section font-weight-bold text-dark py-5 my-5 text-uppercase">
-              MY WORK Featured
+              MY WORK Featured rajrsh
             </h1>
           </Slide>
 
