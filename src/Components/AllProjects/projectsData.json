@@ -3,7 +3,7 @@
 [
     {
         "project": "fullStack",
-        "title": "Dunzo.com",
+        "title": "Dunzo",
         "img": "https://myportfolioinreact.netlify.app/dunzo.jpeg",
         "summary": "cloning DUNZO.COM with material ui,css,react and razorpay payment gateways",
         "technology": [
