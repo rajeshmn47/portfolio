@@ -6,6 +6,7 @@ import {Slide} from 'react-awesome-reveal'
 import TypeAnimation from 'react-type-animation';
 import myResume from "./resume/rajeshresum.pdf";
 import DownloadIcon from '@material-ui/icons/GitHub';
+import styled from '@emotion/styled'
 
 
 const AboutMe = () => {

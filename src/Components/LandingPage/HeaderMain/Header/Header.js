@@ -10,6 +10,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import EmailIcon from '@material-ui/icons/Email';
+import styled from '@emotion/styled';
 
 const Header = () => {
   return (
@@ -24,6 +25,7 @@ const Header = () => {
                 <h4 className="text_title pt-2">FULL-STACK WEB DEVELOPER</h4>
                 <h4 className="pt-2">
                   I work in{" "}
+                  <TypingEffect>
                   <TypeAnimation
                  cursor={false}
                     loop={Infinity}
@@ -49,6 +51,7 @@ const Header = () => {
                       1000,
                     ]}
                   />
+                  </TypingEffect>
                 </h4>
                 <div className="site-buttons pt-5">
                   <div className="d-flex flex-row flex-wrap">
@@ -122,3 +125,9 @@ const Header = () => {
 };
 
 export default Header;
+
+
+const TypingEffect= styled.div`
+p {
+  height: 40px;
+}`
