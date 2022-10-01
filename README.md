@@ -1,3 +1,4 @@
+![Welcome to Rajesh's Portfolio](https://user-images.githubusercontent.com/24763499/193420664-d8f235f3-d15c-4c83-b9de-22fc5f37d5f3.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
