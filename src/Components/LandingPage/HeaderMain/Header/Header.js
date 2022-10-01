@@ -49,6 +49,8 @@ const Header = () => {
                       1000,
                       "Axios ✔",
                       1000,
+                      "Styled Components ✔",
+                      1000,
                     ]}
                   />
                   </TypingEffect>
