@@ -22,7 +22,7 @@ const AboutMe = () => {
                 <h1 className="pb-3 all_title_section">LET ME INTRODUCE MYSELF</h1>
                 <p className="px-md-5 px-lg-0">
                   I'm a dedicated web developer and hard worker. I am from
-                  currentlu living in bangalore. Now, I am
+                  bangalore. Now, I am
                   looking to change my job for better opportunities.
                 </p>
                 <p className="pt-2 px-md-5 px-lg-0">
