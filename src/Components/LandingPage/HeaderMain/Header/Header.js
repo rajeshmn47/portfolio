@@ -92,7 +92,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   className="fixed_socialMedia"
                 >
-                 ok
+                 <TwitterIcon />
                   
                 </a>
                 <a

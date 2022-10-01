@@ -39,7 +39,8 @@ const ContactUs = () => {
     <section >
    
       
-      <h2 className="text-dark ml-5 py-5 skills all_title_section">CONTACT US</h2>
+      <h2 className="text-dark ml-5 py-5 skills all_title_section text-center"
+      style={{width: '100%'}}>CONTACT US</h2>
     <Row>
             <Col sm={12} md={12} lg={6} xl={6} >
               <p className='px-2'>
@@ -70,7 +71,7 @@ const ContactUs = () => {
               <div className="social_media d-flex pt-5 pb-3">
                 <a href="mailto:rajeshmn47@gmail.com">
                 
-             
+             <EmailIcon/>
                 </a>
                 <a
                   href="https://github.com/rajeshmn47"
@@ -129,7 +130,7 @@ const ContactUs = () => {
                   ></textarea>
                 </div>
                 <button className="btn btn-info btn-lg d-flex ml-auto mr-2 btn-sm btn-lg py-4"
-                style={{width:'100%',color:'#ffffff'}}>
+                style={{width:'100%',color:'#ffffff',fontSize:'1.2rem'}}>
                   Send
                 </button>
               </form>
