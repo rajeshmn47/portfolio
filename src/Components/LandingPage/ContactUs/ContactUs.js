@@ -42,7 +42,7 @@ const ContactUs = () => {
       <h2 className="text-dark ml-5 py-5 skills all_title_section"
       style={{width: '100%',textAlign:'center'}}>CONTACT US</h2>
     <Row>
-            <Col sm={12} md={12} lg={6} xl={6} >
+            <Col sm={12} md={12} lg={6} xl={6}>
               <p className='px-4'>
                 You can contact me if you want to know more about me. and You
                 can also give me your opinion about my page. My inbox is always
@@ -50,20 +50,20 @@ const ContactUs = () => {
                 messages.
               </p>
               <div>
-                <h6 className="contact pt-4 pb-2">
+                <h6 className="contacts pt-4">
               
                   Bangalore,India
                 </h6>
-                <a href="mailto:rajeshmn47@gmail.com" className="contact">
+                <a href="mailto:rajeshmn47@gmail.com" className="contacts">
                   <h6>
                
                     <span>rajeshmn47@gmail.com</span>
                   </h6>
                 </a>
                 <a href="tel:+9660532851600" className="phone">
-                  <h6 className="contact pt-2">
+                  <h6 className="contacts pt-2" >
                
-                    <span>7259293140</span>
+                    <span style={{paddingLeft:'0vw'}}>7259293140</span>
                   </h6>
                 </a>
               </div>

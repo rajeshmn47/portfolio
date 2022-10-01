@@ -1,7 +1,4 @@
-.from_content {
-    margin-top: 12rem;
-    background: linear-gradient(330deg, rgba(0, 110, 255, 0.733) 55%, #fff 0%);
-}
+
 
 .social_media a {
     display: flex;
@@ -58,12 +55,14 @@
     text-decoration: none;
 }
 
-.contact {
+.contacts {
     color: #5bd1d7 !important;
+    padding: 2vh 2vw;
 }
 
-.contact span {
+.contacts span {
     text-decoration: underline;
+    padding: 2vh 2vw;
 }
 
 .social_media a:hover .fa-github {
