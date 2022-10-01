@@ -54,7 +54,7 @@ const ContactUs = () => {
               
                   Bangalore,India
                 </h6>
-                <a href="mailto:devabusayed69@gmail.com" className="contact">
+                <a href="mailto:rajeshmn47@gmail.com" className="contact">
                   <h6>
                
                     <span>rajeshmn47@gmail.com</span>
