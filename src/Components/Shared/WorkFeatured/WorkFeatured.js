@@ -9,6 +9,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import EmailIcon from '@material-ui/icons/Email';
 import { Link } from "react-router-dom";
 import { Fade,Slide } from "react-awesome-reveal";
+import styled from '@emotion/styled';
 
 const WorkFeatured = ({ projectData }) => {
   return (
@@ -20,12 +21,12 @@ const WorkFeatured = ({ projectData }) => {
               MY WORK Featured rajesh
             </h1>
           </Slide>
-
+<WorkF>
           <div className="row">
             {projectData &&
               projectData.map((project, index) => (
-                <Slide bottom key={index}>
-                  <div className="col-sm-12 col-md-6 col-lg-4">
+                <Slide bottom key={index} className='col-lg-4'>
+                  <div className="col-sm-12">
                     <div className="card cards mb-3">
                       <div className="d-flex">
                         <p className="d-flex align-self-center pl-1">
@@ -103,6 +104,7 @@ const WorkFeatured = ({ projectData }) => {
                 </Slide>
               ))}
           </div>
+          </WorkF>
         </div>
         <Link to="/all-projects" className="see_all py-3">
           <button type="button" className="button">
@@ -115,3 +117,9 @@ const WorkFeatured = ({ projectData }) => {
 };
 
 export default WorkFeatured;
+
+
+const WorkF= styled.div`
+.row{
+  width:auto !important;
+}`
