@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactUs.css";
 import emailjs from "emailjs-com";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -12,6 +12,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import EmailIcon from '@material-ui/icons/Email';
 import { Fade,Slide } from "react-awesome-reveal";
 import Footer from "../../Shared/Footer/Footer";
+import styled from "@emotion/styled";
 
 const ContactUs = () => {
   const handleSubmit = (e) => {
@@ -38,7 +39,7 @@ const ContactUs = () => {
   return (
     <section >
    
-      
+      <Container>
       <h2 className="text-dark ml-5 py-5 skills all_title_section"
       style={{width: '100%',textAlign:'center'}}>CONTACT US</h2>
     <Row>
@@ -138,9 +139,21 @@ const ContactUs = () => {
           </Row>
         
           <Footer />
-      
+          </Container>
     </section>
   );
 };
 
 export default ContactUs;
+
+const Container= styled.div`
+@media only screen and (max-width: 600px) {
+.row {
+  width: auto;
+}
+form {
+  width: 90%;
+  margin: auto;
+  margin-top: 3vh;
+}
+}`
