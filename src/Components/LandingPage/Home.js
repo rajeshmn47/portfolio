@@ -8,12 +8,12 @@ import WorkFeatured from "../Shared/WorkFeatured/WorkFeatured";
 
 const Home = () => {
   document.title = "Welcome to Rajesh's Portfolio";
-  const projects = projectData.slice(0, 3);
+  const projects = projectData.slice(0, 6);
   return (
     <div>
   <HeaderMain/>
   <AboutMe/>
-      <WorkFeatured projectData={projectData}/>
+      <WorkFeatured projectData={projects}/>
       <ContactUs/>
     </div>
   );
