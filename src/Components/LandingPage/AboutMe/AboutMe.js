@@ -42,9 +42,10 @@ const AboutMe = () => {
                   target="_blank"
                   className="d-flex justify-content-md-center justify-content-lg-start"
                 >
-                  <button className="button hire_btn mt-3 text-uppercase py-3">
-                <DownloadIcon/>
-                    GET Resumes
+                  <button className="button hire_btn mt-3 text-uppercase py-3"
+                  >
+                <DownloadIcon style={{marginRight:'15px'}}/>
+                    GET Resume
                   </button>
                 </a>
               </div>
