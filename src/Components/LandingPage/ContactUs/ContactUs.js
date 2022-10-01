@@ -42,7 +42,7 @@ const ContactUs = () => {
       <h2 className="text-dark ml-5 py-5 skills all_title_section">CONTACT US</h2>
     <Row>
             <Col sm={12} md={12} lg={6} xl={6} >
-              <p>
+              <p className='px-2'>
                 You can contact me if you want to know more about me. and You
                 can also give me your opinion about my page. My inbox is always
                 open for you. I will try my best to reply to all of your
@@ -128,7 +128,8 @@ const ContactUs = () => {
                     required
                   ></textarea>
                 </div>
-                <button className="btn btn-info btn-lg d-flex ml-auto mr-2 btn-sm">
+                <button className="btn btn-info btn-lg d-flex ml-auto mr-2 btn-sm btn-lg py-4"
+                style={{width:'100%',color:'#ffffff'}}>
                   Send
                 </button>
               </form>
