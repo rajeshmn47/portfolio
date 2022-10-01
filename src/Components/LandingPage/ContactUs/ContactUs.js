@@ -39,11 +39,11 @@ const ContactUs = () => {
     <section >
    
       
-      <h2 className="text-dark ml-5 py-5 skills all_title_section text-center"
-      style={{width: '100%'}}>CONTACT US</h2>
+      <h2 className="text-dark ml-5 py-5 skills all_title_section"
+      style={{width: '100%',textAlign:'center'}}>CONTACT US</h2>
     <Row>
             <Col sm={12} md={12} lg={6} xl={6} >
-              <p className='px-2'>
+              <p className='px-4'>
                 You can contact me if you want to know more about me. and You
                 can also give me your opinion about my page. My inbox is always
                 open for you. I will try my best to reply to all of your
