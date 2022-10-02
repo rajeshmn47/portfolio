@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectsSkillsNavbar.css";
 import { Nav } from "react-bootstrap";
-import { Fade,Slide } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import { useLocation } from "react-router-dom";
 
 const skillsDispatchData = [

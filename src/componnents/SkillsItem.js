@@ -1,14 +1,11 @@
-import { Navbar,Row,Col,Container, Nav } from 'react-bootstrap';
+import { Navbar, Row, Col, Container, Nav } from "react-bootstrap";
 import { Fade } from "react-awesome-reveal";
 
-export const SkillsItem=({skill})=>{
-  console.log(skill)
-    return(
-<>
-
-
-<Row 
-className="d-flex mt-4 justify-content-center align-items-center px-5" >
+export const SkillsItem = ({ skill }) => {
+  console.log(skill);
+  return (
+    <>
+      <Row className="d-flex mt-4 justify-content-center align-items-center px-5">
         {skill.map((item, index) => (
           <Col
             key={index}
@@ -17,7 +14,6 @@ className="d-flex mt-4 justify-content-center align-items-center px-5" >
             xl={1}
             id="skillItem"
             className="d-flex justify-content-center w-sm-50 mr-md-4 mt-3 py-2"
-          
           >
             <div>
               <Fade bottom>
@@ -34,9 +30,7 @@ className="d-flex mt-4 justify-content-center align-items-center px-5" >
           </Col>
         ))}
       </Row>
- 
-   
-</>
-    )
-}
-export default SkillsItem
+    </>
+  );
+};
+export default SkillsItem;

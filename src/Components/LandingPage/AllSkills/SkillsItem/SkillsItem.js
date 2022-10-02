@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Fade,Slide } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 const SkillsItem = ({ skillsData }) => {
   return (
     <Container>

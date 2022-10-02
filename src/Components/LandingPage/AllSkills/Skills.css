@@ -1,15 +1,14 @@
 .skills_container {
-    margin-top: 13rem;
-    background-color: rgba(245, 245, 245, 0.473);
+  margin-top: 13rem;
+  background-color: rgba(245, 245, 245, 0.473);
 }
 
 .skills {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 @media (max-width: 767px) {
-    #skillItem {
-        width: 50%;
-
-    }
+  #skillItem {
+    width: 50%;
+  }
 }

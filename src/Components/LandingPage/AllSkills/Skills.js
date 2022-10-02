@@ -3,8 +3,9 @@ import "./Skills.css";
 import skillData from "./skills.json";
 import { Container } from "react-bootstrap";
 import SkillsItem from "./SkillsItem/SkillsItem";
-import { Fade,Slide } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import ProjectsSkillsNavbar from "../../Shared/ProjectsSkillsNavbar/ProjectsSkillsNavbar";
+import styled from "@emotion/styled";
 
 const skillsState = {
   allSkills: true,
@@ -35,22 +36,34 @@ const Skills = () => {
     (state.tools && skillData.slice(10, 21));
 
   return (
-    <div id="skills">
-      <section className="px-lg-5 py-5 skills_container">
-      <Container fluid>
-      <Slide >
-            SKILLS
-          </Slide>
-          <ProjectsSkillsNavbar dispatch={dispatch} />
-          {skillsData && (
-            <div>
-              <SkillsItem skillsData={skillsData} />
-            </div>
-          )}
-        </Container>
+    <SkillsContainer>
+      <section>
+        <h3
+          style={{
+            textAlign: "center",
+            fontSize: "2.55rem",
+            textTransform: "uppercase",
+          }}
+        >
+          Skills
+        </h3>
+
+        {skillsData && (
+          <div>
+            <SkillsItem skillsData={skillsData} />
+          </div>
+        )}
       </section>
-    </div>
+    </SkillsContainer>
   );
 };
 
 export default Skills;
+
+const SkillsContainer = styled.div`
+display: flex;
+justify-content:center;
+align-items;center;
+.row{
+  width:none !important;
+}`;

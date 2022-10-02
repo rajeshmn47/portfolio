@@ -18,7 +18,9 @@ const AboutMe = () => {
             </Col>
             <Col sm={12} md={12} lg={6} xl={6} className="aboutContent">
               <div className="pt-lg-3 pt-xl-5">
-                <h1 className="pb-3 all_title_section">LET ME INTRODUCE MYSELF</h1>
+                <h1 className="pb-3 all_title_section">
+                  LET ME INTRODUCE MYSELF
+                </h1>
                 <p className="px-md-5 px-lg-0">
                   I'm a dedicated web developer and hard worker. I am from
                   Bangladesh but I currently live in Saudi Arabia. Now, I am
@@ -27,12 +29,12 @@ const AboutMe = () => {
                 <p className="pt-2 px-md-5 px-lg-0">
                   I have strong Efficiency of Responsive Web Design,
                   Functionality, Authentication, REST API, Database, Git GitHub,
-                  Deploy, Google Search, etc, and I try to write clean and scalable
-                  code. I have been attached in programming for over one and a
-                  half years. and I am open-minded. I try to learn new things
-                  quickly, and I always try to keep myself updated, I want to
-                  become the best programmer and dedicate all my skills and
-                  talents to developing high-quality and unique websites.
+                  Deploy, Google Search, etc, and I try to write clean and
+                  scalable code. I have been attached in programming for over
+                  one and a half years. and I am open-minded. I try to learn new
+                  things quickly, and I always try to keep myself updated, I
+                  want to become the best programmer and dedicate all my skills
+                  and talents to developing high-quality and unique websites.
                 </p>
                 <a
                   href={myResume}

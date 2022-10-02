@@ -39,7 +39,9 @@ const AllProjects = () => {
     <div>
       <NavBar />
       <div className="pt-5">
-        <h1 className="text-center pt-5 mt-5 skills all_title_section">ALL PROJECTS</h1>
+        <h1 className="text-center pt-5 mt-5 skills all_title_section">
+          ALL PROJECTS
+        </h1>
         <ProjectsSkillsNavbar dispatch={dispatch} />
       </div>
 

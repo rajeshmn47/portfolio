@@ -3,14 +3,14 @@ import "./Header.css";
 import mainImg from "../../../images/banner-image.png";
 import { Container, Row, Col } from "react-bootstrap";
 import TypeAnimation from "react-type-animation";
-import { Fade,Slide } from "react-awesome-reveal";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import EmailIcon from '@material-ui/icons/Email';
-import styled from '@emotion/styled';
+import { Fade, Slide } from "react-awesome-reveal";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import EmailIcon from "@material-ui/icons/Email";
+import styled from "@emotion/styled";
 
 const Header = () => {
   return (
@@ -26,33 +26,32 @@ const Header = () => {
                 <h4 className="pt-2">
                   I work in{" "}
                   <TypingEffect>
-                  <TypeAnimation
-                 cursor={false}
-                    loop={Infinity}
-                  
-                    sequence={[
-                      "JavaScript(ES6) ✔",
-                      1000,
-                      "React.js ✔",
-                      1000,
-                      "Bootstrap ✔",
-                      1000,
-                      "Node.js ✔",
-                      1000,
-                      "Express.js ✔",
-                      1000,
-                      "MongoDB ✔",
-                      1000,
-                      "Redux ✔",
-                      1000,
-                      "Redux-Thunk ✔",
-                      1000,
-                      "Axios ✔",
-                      1000,
-                      "Styled Components ✔",
-                      1000,
-                    ]}
-                  />
+                    <TypeAnimation
+                      cursor={false}
+                      loop={Infinity}
+                      sequence={[
+                        "JavaScript(ES6) ✔",
+                        1000,
+                        "React.js ✔",
+                        1000,
+                        "Bootstrap ✔",
+                        1000,
+                        "Node.js ✔",
+                        1000,
+                        "Express.js ✔",
+                        1000,
+                        "MongoDB ✔",
+                        1000,
+                        "Redux ✔",
+                        1000,
+                        "Redux-Thunk ✔",
+                        1000,
+                        "Axios ✔",
+                        1000,
+                        "Styled Components ✔",
+                        1000,
+                      ]}
+                    />
                   </TypingEffect>
                 </h4>
                 <div className="site-buttons pt-5">
@@ -92,8 +91,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   className="fixed_socialMedia"
                 >
-                 <TwitterIcon />
-                  
+                  <TwitterIcon />
                 </a>
                 <a
                   href="https://github.com/rajeshmn47"
@@ -101,8 +99,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   className=" my-4 fixed_socialMedia"
                 >
-               <GitHubIcon/>
-                  
+                  <GitHubIcon />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/dev-abu-sayed/"
@@ -110,7 +107,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   className="fixed_socialMedia"
                 >
-              <LinkedInIcon/>
+                  <LinkedInIcon />
                 </a>
               </div>
             </div>
@@ -128,8 +125,8 @@ const Header = () => {
 
 export default Header;
 
-
-const TypingEffect= styled.div`
-p {
-  height: 40px;
-}`
+const TypingEffect = styled.div`
+  p {
+    height: 40px;
+  }
+`;

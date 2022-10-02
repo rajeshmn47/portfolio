@@ -1,14 +1,14 @@
-import React from 'react';
-import Header from './Header/Header';
-import NavBar from '../../Shared/Navbar/NavBar';
+import React from "react";
+import Header from "./Header/Header";
+import NavBar from "../../Shared/Navbar/NavBar";
 
 const HeaderMain = () => {
-    return (
-        <>
-            <NavBar />
-            <Header />
-        </>
-    );
+  return (
+    <>
+      <NavBar />
+      <Header />
+    </>
+  );
 };
 
 export default HeaderMain;
