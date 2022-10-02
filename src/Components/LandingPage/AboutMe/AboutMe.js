@@ -37,7 +37,7 @@ const AboutMe = () => {
                   want to become the best programmer and dedicate all my skills
                   and talents to developing high-quality and unique websites.
                 </p>
-                <a
+                <ResumeLink
                   href={myResume}
                   download
                   rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const AboutMe = () => {
                     <DownloadIcon style={{ marginRight: "15px" }} />
                     GET Resume
                   </button>
-                </a>
+                </ResumeLink>
               </div>
             </Col>
           </Row>
@@ -59,3 +59,7 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
+const ResumeLink= styled.a`
+text-decoration:none;
+`;
