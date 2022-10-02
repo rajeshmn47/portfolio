@@ -65,5 +65,5 @@ display: flex;
 justify-content:center;
 align-items;center;
 .row{
-  width:none !important;
+  width: 88vw !important;
 }`;
