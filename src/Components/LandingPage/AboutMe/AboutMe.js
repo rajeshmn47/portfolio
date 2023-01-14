@@ -60,6 +60,6 @@ const AboutMe = () => {
 
 export default AboutMe;
 
-const ResumeLink= styled.a`
-text-decoration:none;
+const ResumeLink = styled.a`
+  text-decoration: none;
 `;

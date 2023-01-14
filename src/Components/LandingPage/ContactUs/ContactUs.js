@@ -128,8 +128,14 @@ const ContactUs = () => {
               </div>
               <button
                 className="btn btn-info btn-lg d-flex ml-auto mr-2 btn-sm btn-lg py-4"
-                style={{ width: "100%", color: "#ffffff", fontSize: "1.2rem",
-              display:'flex',justifyContent:'center',alignItems:'center' }}
+                style={{
+                  width: "100%",
+                  color: "#ffffff",
+                  fontSize: "1.2rem",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
                 Send
               </button>
