@@ -2,7 +2,7 @@
   {
     "project": "fullStack",
     "title": "Dream 11",
-    "img": "https://myportfolioinreact.netlify.app/dream.jpeg",
+    "img": "https://myportfolioinreact.netlify.app/dream11.png",
     "summary": "Recreating DREAM 11 with material ui,css,react and razorpay payment gateways",
     "technology": [
       {
@@ -62,7 +62,7 @@
     ],
     "sourceCodeClient": "https://github.com/rajeshmn47/dunzoclone",
     "sourceCodeBackend": "https://github.com/rajeshmn47/dunzobackend",
-    "siteUrl": "https://dunzoclonebyrajesh.netlify.app"
+    "siteUrl": "https://myportfolioinreact.netlify.app"
   },
   {
     "project": "fullStack",

@@ -54,7 +54,14 @@ const WorkFeatured = ({ projectData }) => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 title="Visit-Website"
-                              ></a>
+                                style={{
+                                  marginRight: "15px",
+                                  textDecoration: "none",
+                                  textTransform: "capitalize",
+                                }}
+                              >
+                                link
+                              </a>
                               <a
                                 href={project.sourceCodeBackend}
                                 target="_blank"
