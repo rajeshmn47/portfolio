@@ -1,4 +1,5 @@
-![Welcome to Rajesh's Portfolio](https://user-images.githubusercontent.com/24763499/193420664-d8f235f3-d15c-4c83-b9de-22fc5f37d5f3.png)
+![Screenshot from 2023-01-15 10-33-31](https://user-images.githubusercontent.com/24763499/212523821-6c53a242-de6f-4f1f-a8b5-b04ffea2751f.png)
+
 
 # Getting Started with Create React App
 
