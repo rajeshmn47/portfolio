@@ -58,25 +58,25 @@ const ContactUs = () => {
                   <FontAwesomeIcon icon={faMapMarkedAlt} className="mr-2" />{" "}
                   Dagonbuiyan,Fine,Bangladesh
                 </h6>
-                <a href="mailto:devabusayed69@gmail.com" className="contact">
+                <a href="mailto:rajeshmn47@gmail.com" className="contact">
                   <h6>
                     <FontAwesomeIcon
                       icon={faEnvelopeOpenText}
                       className="mr-2"
                     />{" "}
-                    <span>devabusayed69@gmail.com</span>
+                    <span>rajeshmn47@gmail.com</span>
                   </h6>
                 </a>
-                <a href="tel:+9660532851600" className="phone">
+                <a href="tel:+919380899596" className="phone">
                   <h6 className="contact pt-2">
                     <FontAwesomeIcon icon={faPhoneSquareAlt} className="mr-2" />{" "}
-                    <span>+9660532851600</span>
+                    <span>+919380899596</span>
                   </h6>
                 </a>
               </div>
 
               <div className="social_media d-flex pt-5 pb-3">
-                <a href="mailto:devabusayed69@gmail.com">
+                <a href="mailto:rajeshmn47@gmail.com">
                   {" "}
                   <FontAwesomeIcon
                     className="social_mediaIcon"
@@ -84,7 +84,7 @@ const ContactUs = () => {
                   />
                 </a>
                 <a
-                  href="https://github.com/abu-sayed-1"
+                  href="https://github.com/rajeshmn47"
                   target="blank"
                   rel="noopener noreferrer"
                 >

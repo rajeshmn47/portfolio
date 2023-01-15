@@ -83,7 +83,7 @@ export const Portfolio = () => {
                     <div className="d-flex flex-row flex-wrap align-items-md-center align-items-center ">
                       <a
                         className="text-decoration-none text-white"
-                        href="mailto:devabusayed69@gmail.com"
+                        href="mailto:rajeshmn47@gmail.com"
                       >
                         <button
                           type="button"
@@ -230,7 +230,7 @@ export const Portfolio = () => {
               </div>
 
               <div className="social_media d-flex pt-5 pb-3">
-                <a href="mailto:devabusayed69@gmail.com">
+                <a href="mailto:rajeshmn47@gmail.com">
                   {" "}
                   <EmailIcon htmlColor="grey" />
                 </a>

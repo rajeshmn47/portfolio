@@ -58,7 +58,7 @@ const Header = () => {
                   <div className="d-flex flex-row flex-wrap">
                     <a
                       className="text-decoration-none text-white"
-                      href="mailto:devabusayed69@gmail.com"
+                      href="mailto:rajeshmn47@gmail.com"
                     >
                       <button
                         type="button"

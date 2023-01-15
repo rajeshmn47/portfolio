@@ -7,7 +7,7 @@ import projectData from "../AllProjects/projectsData.json";
 import WorkFeatured from "../Shared/WorkFeatured/WorkFeatured";
 
 const Home = () => {
-  document.title = "Welcome to Abu Sayed Portfolio";
+  document.title = "Welcome to Rajesh Portfolio";
   const projects = projectData.slice(0, 3);
   return (
     <div>

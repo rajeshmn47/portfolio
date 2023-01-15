@@ -32,8 +32,8 @@ const AboutMe = () => {
                   Functionality, Authentication, REST API, Database, Git GitHub,
                   Deploy, Google Search, etc, and I try to write clean and
                   scalable code. I have been attached in programming for over
-                  three and a half years. and I am open-minded. I try to learn new
-                  things quickly, and I always try to keep myself updated, I
+                  three and a half years. and I am open-minded. I try to learn
+                  new things quickly, and I always try to keep myself updated, I
                   want to become the best programmer and dedicate all my skills
                   and talents to developing high-quality and unique websites.
                 </p>

@@ -26,7 +26,7 @@ const projectReducer = (state = projectState, action) => {
 };
 
 const AllProjects = () => {
-  document.title = "All Project | Abu Sayed Portfolio";
+  document.title = "All Project | Rajesh Portfolio";
 
   const [state, dispatch] = useReducer(projectReducer, projectState);
 
