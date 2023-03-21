@@ -86,7 +86,7 @@ const Header = () => {
                   d-flex-column fixed_bottom pl-2 pb-4 pt-5"
               >
                 <a
-                  href="mailto:devabusayed69@gmail.com"
+                  href="mailto:rajeshmn47@gmail.com"
                   target="blank"
                   rel="noopener noreferrer"
                   className="fixed_socialMedia"
