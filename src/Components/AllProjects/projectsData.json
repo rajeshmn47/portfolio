@@ -62,7 +62,7 @@
     ],
     "sourceCodeClient": "https://github.com/rajeshmn47/dunzoclone",
     "sourceCodeBackend": "https://github.com/rajeshmn47/dunzobackend",
-    "siteUrl": ""
+    "siteUrl": "https://dunzo-clone-frontend.vercel.app"
   },
   {
     "project": "fullStack",
