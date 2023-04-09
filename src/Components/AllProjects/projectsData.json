@@ -62,7 +62,7 @@
     ],
     "sourceCodeClient": "https://github.com/rajeshmn47/dunzoclone",
     "sourceCodeBackend": "https://github.com/rajeshmn47/dunzobackend",
-    "siteUrl": "https://myportfolioinreact.netlify.app"
+    "siteUrl": ""
   },
   {
     "project": "fullStack",
@@ -92,9 +92,9 @@
         "tech": "RAZORPAY"
       }
     ],
-    "sourceCodeClient": "https://github.com/rajeshmn47/Aircnc-client",
-    "sourceCodeBackend": "https://github.com/rajeshmn47/Aircnc-server",
-    "siteUrl": "https://dunzoclonebyrajesh.netlify.app"
+    "sourceCodeClient": "https://github.com/rajeshmn47/stackoverflow-clone-with-elastic-search",
+    "sourceCodeBackend": "https://github.com/rajeshmn47/stackoverflow-backend",
+    "siteUrl": "https://stackoverflowclonefrontend.netlify.app/"
   },
   {
     "project": "fullStack",
