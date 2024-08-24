@@ -27,9 +27,9 @@
         "tech": "RAZORPAY"
       }
     ],
-    "sourceCodeClient": "https://github.com/rajeshmn47/dream-11-clone-mern-stack",
+    "sourceCodeClient": "https://github.com/rajeshmn47/dream-11-clone",
     "sourceCodeBackend": "https://github.com/rajeshmn47/dreamelevenclonebackend",
-    "siteUrl": "https://dream-11-clone-mern-stack.vercel.app"
+    "siteUrl": "https://dream11clone.vercel.app"
   },
 
   {

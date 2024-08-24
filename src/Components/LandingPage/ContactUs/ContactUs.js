@@ -1,8 +1,8 @@
 import React from "react";
 import "./ContactUs.css";
-import emailjs from "emailjs-com";
+//import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import { Row, Col } from "react-bootstrap";
-
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -15,20 +15,23 @@ import Footer from "../../Shared/Footer/Footer";
 import styled from "@emotion/styled";
 
 const ContactUs = () => {
+  const templateParams = {
+    name: 'Rajesh',
+    notes: 'Check this out!',
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(process.env.REACT_APP_SERVICE_ID,'serviceid')
     emailjs
-      .sendForm(
-        "gmail",
-        "template_qj1o2f9",
-        e.target,
-        "user_7pnWAd5svNRFlpeUsPKby"
-      )
+      .send(process.env.REACT_APP_SERVICE_ID, 'template_zx9z79x', templateParams, {
+        publicKey: 'O_QYaz0yI2_Z0vgoK',
+      })
       .then(
         (result) => {
           alert("Your message has been sent successfully 😊😊");
         },
         (error) => {
+          console.log(error,'error');
           alert("An error occurred, Please try again 😢😢", error.text);
         }
       );
@@ -59,9 +62,9 @@ const ContactUs = () => {
                   <span>rajeshmn47@gmail.com</span>
                 </h6>
               </a>
-              <a href="tel:+9660532851600" className="phone">
+              <a href="tel:+919380899596" className="phone">
                 <h6 className="contacts pt-2">
-                  <span style={{ paddingLeft: "0vw" }}>7259293140</span>
+                  <span style={{ paddingLeft: "0vw" }}>9380899596</span>
                 </h6>
               </a>
             </div>
@@ -78,7 +81,7 @@ const ContactUs = () => {
                 <GitHubIcon />
               </a>
               <a
-                href="https://www.linkedin.com/in/rajeshmn47/"
+                href="https://www.linkedin.com/in/rajesh-rajesh-806b3b324/"
                 target="blank"
                 rel="noopener noreferrer"
               >
