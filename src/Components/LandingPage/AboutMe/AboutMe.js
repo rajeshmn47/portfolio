@@ -4,7 +4,7 @@ import aboutUs from "../../images/about-us.png";
 import { Container, Row, Col } from "react-bootstrap";
 import { Slide } from "react-awesome-reveal";
 import TypeAnimation from "react-type-animation";
-import myResume from "./resume/rajeshresum.pdf";
+import myResume from "./resume/resume.pdf";
 import DownloadIcon from "@material-ui/icons/GitHub";
 import styled from "@emotion/styled";
 

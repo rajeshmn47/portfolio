@@ -114,7 +114,7 @@ const Header = () => {
           </Col>
           <Col sm={12} md={6} lg={6} xl={6} className="headerImg">
             <Fade right big>
-              <img src={mainImg} className="img-fluid" alt="" />
+              <img src='https://img.freepik.com/premium-vector/working-from-home-concept-man-work-laptop-stay-home-quarantine-coronavirus_199064-190.jpg' className="img-fluid" alt="" />
             </Fade>
           </Col>
         </Row>
