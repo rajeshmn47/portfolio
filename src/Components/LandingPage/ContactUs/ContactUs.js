@@ -40,7 +40,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section>
+    <section id='contact'>
       <Container>
         <h2
           className="text-dark ml-5 py-5 skills all_title_section"

@@ -36,7 +36,7 @@ const Skills = () => {
     (state.tools && skillData.slice(10, 21));
 
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <section>
         <h3
           style={{

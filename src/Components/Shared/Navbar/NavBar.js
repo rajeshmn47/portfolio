@@ -23,18 +23,18 @@ const NavBar = () => {
               className="ml-10"
               style={{ display: "flex", alignItems: "center" }}
             >
-              <Nav.Link className="mr-5" href="/#aboutMe">
+              <a className="mr-5" href="/#aboutMe">
                 About Me
-              </Nav.Link>
-              <Nav.Link className="mr-5" href="/#work">
+              </a>
+              <a className="mr-5" href="/#work">
                 Work
-              </Nav.Link>
-              <Nav.Link className="mr-5" href="/#skills">
+              </a>
+              <a className="mr-5" href="/#skills">
                 Skills
-              </Nav.Link>
-              <Nav.Link className="mr-5" href="/#contact">
+              </a>
+              <a className="mr-5" href="/#contact">
                 Contact
-              </Nav.Link>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>
