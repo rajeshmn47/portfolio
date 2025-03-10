@@ -173,7 +173,7 @@
   {
     "project": "fullStack",
     "title": "JobSaathi",
-    "img": "https://i.ibb.co/your-image-link/jobsaathi.png",
+    "img": "https://myportfolioinreact.netlify.app/jobsaathi.png",
     "summary": "JobSaathi is a job portal where users can search for jobs, apply for jobs, and track their applications. It includes features like user authentication, job recommendations, and more...",
     "technology": [
       {
