@@ -1,29 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ContactUs.css";
-//import emailjs from "emailjs-com";
 import emailjs from '@emailjs/browser';
 import { Row, Col } from "react-bootstrap";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import EmailIcon from "@material-ui/icons/Email";
-import { Fade, Slide } from "react-awesome-reveal";
 import Footer from "../../Shared/Footer/Footer";
 import styled from "@emotion/styled";
 
 const ContactUs = () => {
-  const templateParams = {
-    name: 'Rajesh',
-    notes: 'Check this out!',
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(process.env.REACT_APP_SERVICE_ID,'serviceid')
+    console.log(process.env.REACT_APP_SERVICE_ID, 'serviceid');
     emailjs
-      .send(process.env.REACT_APP_SERVICE_ID, 'template_zx9z79x', templateParams, {
+      .send(process.env.REACT_APP_SERVICE_ID, 'template_zx9z79x', formData, {
         publicKey: 'O_QYaz0yI2_Z0vgoK',
       })
       .then(
@@ -31,12 +37,18 @@ const ContactUs = () => {
           alert("Your message has been sent successfully 😊😊");
         },
         (error) => {
-          console.log(error,'error');
+          console.log(error, 'error');
           alert("An error occurred, Please try again 😢😢", error.text);
         }
       );
 
     e.target.reset();
+    setFormData({
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    });
   };
 
   return (
@@ -98,6 +110,8 @@ const ContactUs = () => {
                   name="name"
                   className="form-control py-4"
                   placeholder="Your Name"
+                  value={formData.name}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -107,6 +121,8 @@ const ContactUs = () => {
                   name="email"
                   className="form-control py-4"
                   placeholder="Your Email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -116,6 +132,8 @@ const ContactUs = () => {
                   name="subject"
                   className="form-control py-4"
                   placeholder="Subject"
+                  value={formData.subject}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -126,6 +144,8 @@ const ContactUs = () => {
                   id="exampleFormControlTextarea1"
                   placeholder="Message"
                   rows="10"
+                  value={formData.message}
+                  onChange={handleChange}
                   required
                 ></textarea>
               </div>
