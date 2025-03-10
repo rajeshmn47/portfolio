@@ -62,11 +62,9 @@
 .button.hire_btn {
   border: none !important;
   color: rgba(245, 245, 245, 0.918);
-  background-image: linear-gradient(
-    90deg,
-    rgba(0, 0, 255, 0.705),
-    rgba(87, 87, 238, 0.788)
-  );
+  background-image: linear-gradient(90deg,
+      rgba(0, 0, 255, 0.705),
+      rgba(87, 87, 238, 0.788));
 }
 
 .button.hire_btn:hover {
@@ -97,8 +95,9 @@
 .fixed_bottom {
   position: fixed;
   float: right !important;
-  top: 30rem;
+  top: 24rem;
   right: 2rem;
+  z-index: 1000000000000;
 }
 
 .social_media a:hover .fa-envelope-open-text {

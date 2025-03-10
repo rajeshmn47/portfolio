@@ -86,7 +86,7 @@ const Header = () => {
                   d-flex-column fixed_bottom pl-2 pb-4 pt-5"
               >
                 <a
-                  href="mailto:rajeshmn47@gmail.com"
+                  href="https://x.com/rajeshmn47"
                   target="blank"
                   rel="noopener noreferrer"
                   className="fixed_socialMedia"
@@ -102,7 +102,7 @@ const Header = () => {
                   <GitHubIcon />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/dev-abu-sayed/"
+                  href="https://www.linkedin.com/in/rajesh-rajesh-806b3b324"
                   target="blank"
                   rel="noopener noreferrer"
                   className="fixed_socialMedia"
