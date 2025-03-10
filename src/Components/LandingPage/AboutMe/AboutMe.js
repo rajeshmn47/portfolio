@@ -23,20 +23,35 @@ const AboutMe = () => {
                   LET ME INTRODUCE MYSELF
                 </h1>
                 <p className="px-md-5 px-lg-0">
-                  I'm a dedicated web developer and hard worker. I am from
-                  bangalore. Now, I am looking to change my job for better
-                  opportunities.
+                  I'm a passionate and result-driven <strong> Full Stack Web Developer </strong>
+                  with over <strong> three and a half years of experience </strong> in designing and
+                  deploying <strong> responsive, scalable, and dynamic web applications</strong>.
+                  I specialize in <strong> React.js, Node.js, Express.js, MongoDB, MySQL </strong>,
+                  and modern JavaScript frameworks.
                 </p>
+
                 <p className="pt-2 px-md-5 px-lg-0">
-                  I have strong Efficiency of Responsive Web Design,
-                  Functionality, Authentication, REST API, Database, Git GitHub,
-                  Deploy, Google Search, etc, and I try to write clean and
-                  scalable code. I have been attached in programming for over
-                  three and a half years. and I am open-minded. I try to learn
-                  new things quickly, and I always try to keep myself updated, I
-                  want to become the best programmer and dedicate all my skills
-                  and talents to developing high-quality and unique websites.
+                  Based in <strong> Bangalore, India </strong>, I have a strong grasp of
+                  <strong> REST APIs, Database Management, Authentication, Deployment, </strong>
+                  and <strong> Version Control (Git/GitHub) </strong>.
+                  I take pride in writing <strong> clean, maintainable, and scalable code </strong>
+                  to deliver seamless user experiences.
                 </p>
+
+                <p className="pt-2 px-md-5 px-lg-0">
+                  I'm highly skilled in deploying applications on platforms like
+                  <strong> Vercel, Hostinger, Heroku, and GitHub Pages </strong>.
+                  My problem-solving mindset and continuous learning drive me to deliver
+                  <strong> high-quality web applications </strong> that exceed client expectations.
+                </p>
+
+                <p className="pt-2 px-md-5 px-lg-0">
+                  I'm currently open to <strong> exciting opportunities </strong> where I can
+                  contribute my skills to build impactful web solutions.
+                  Feel free to <strong> check out my resume </strong> or connect for job opportunities,
+                  freelance work, or collaborations.
+                </p>
+
                 <ResumeLink
                   href={myResume}
                   download
